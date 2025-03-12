@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  express_node:
+    build: .
+    container_name: Express_Node
+    ports:
+      - "1616:1616"
