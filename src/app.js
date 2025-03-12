@@ -16,10 +16,6 @@ app.get('/pong', (req, res) => {
     res.send('ping')
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname+'/public/templates/index.html'))
-});
-
 app.listen(port, () => {
     console.log(`Server started on port ${port}`);
 });
