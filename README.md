@@ -44,3 +44,18 @@ Assurez-vous d’avoir les outils suivants installés :
 ```bash
 git clone https://github.com/Matheo-Msst/EXPRESS_API.git
 cd ./EXPRESS_API.git
+```
+### 2. Démarrer l'application avec Docker Compose
+```
+docker-compose up --build
+```
+### Cela va :
+
+    - Construire l'image Docker avec le Dockerfile
+    - Lancer le conteneur avec nodemon pour un rechargement automatique à chaque modification du code
+    - Exposer l’application sur le port 3000
+
+## 🌐 Accéder à l'application
+
+### Une fois le conteneur lancé, accédez à l'application dans votre navigateur :
+http://localhost:1616
